@@ -1,0 +1,60 @@
+.SideBarContainer {
+    width: 240px;
+    min-height: 400px;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Profile */
+
+.sidebarProfile {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #475569;
+}
+
+.sidebarProfile h3 {
+    color: #fbbf24;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.sidebarProfile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #fbbf24;
+    object-fit: cover;
+}
+
+/* Category */
+
+.sidebarCategory {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebarCategory p {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fbbf24;
+    margin-bottom: 5px;
+}
+
+.sidebarCategory label {
+    font-size: 16px;
+    cursor: pointer;
+    color: #e2e8f0;
+}
+
+.sidebarCategory input {
+    accent-color: #fbbf24;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin: 0;
+}

@@ -1,15 +1,15 @@
 import './App.css'
-import { Link } from 'react-router-dom'
+import Home from './Components/Home/Home'
+import Navbar from './Components/Header/Navbar' 
+import Footer from './Components/Footer/footer'
 
 function App() {
 
   return (
     <>
-
-<Link to = "/home">home</Link>
-<Link to = "/about">About</Link>
-
- 
+    <Navbar></Navbar>
+    <Home></Home>
+    <Footer></Footer>
     </>
   )
 }

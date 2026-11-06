@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1e293b;
+    box-sizing: border-box;
+    color: white;
+    gap: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #fbbf24;
+}
+
+.seachbar {
+    flex: 1;
+    max-width: 500px;
+}
+
+.seachbar input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    color: #fbbf24;
+}
+
+.seachbar input:focus {
+    border: 2px solid #fbbf24;
+    box-shadow: 0 0 5px #fbbf24;
+}
+.short select {
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background: white;
+    color:#1e293b
+}
+
+.short select option {
+    padding: 12px;
+    background: #1e293b;
+    color: white;
+    font-size: 15px;
+}
+
+.short select option:hover {
+    background: #fbbf24;
+    color: #1e293b;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .header {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .seachbar {
+        max-width: 100%;
+    }
+}
